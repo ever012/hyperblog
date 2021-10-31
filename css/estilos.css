@@ -1,18 +1,16 @@
-body
-{
-    background: #1e1f24;
+body{
     color: #333;
-    text-align: center;
-    font-family: Arial;
+    text-align: left;
+    font-family: "Arial";
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
-#cabecera
-{
-    background: #37488b;
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+#cabecera{
+    background: #33A;
+    color: white;
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.75);
     color: white;
     font-weight: bold;
     margin: 0;
@@ -45,7 +43,10 @@ body
 {
     font-size: 20px;
 }
-#post
+#post{
+	padding: 1em;
+}
+#footer
 {
 	background: #4777;
 	color: while;
